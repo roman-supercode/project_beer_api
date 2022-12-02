@@ -1,8 +1,8 @@
-import "./Navigation.css";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/img/Logo.svg";
 
-function Navigation() {
+function Navbar() {
     return (
         <div className="navigation">
             <Link to="/"><img src={Logo} alt="Beer" /></Link>
@@ -10,4 +10,4 @@ function Navigation() {
     );
 };
 
-export default Navigation;
+export default Navbar;
