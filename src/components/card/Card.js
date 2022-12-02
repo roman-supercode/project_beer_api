@@ -9,7 +9,7 @@ function Card(props) {
                 <h2>{props.name}</h2>
                 <h3>{props.tagline}</h3>
                 <p>Created By {props.contributed}</p>
-                <Link to={`/details/${props.id}`}></Link>
+                <Link to={`/details/${props.id}`}>Details</Link>
             </article>
         </section>
     );

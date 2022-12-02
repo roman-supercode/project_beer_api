@@ -1,4 +1,5 @@
 import "./DetailsCard.css";
+import { Link } from "react-router-dom";
 
 function DetailsCard(props) {
     return (
@@ -14,6 +15,6 @@ function DetailsCard(props) {
             </article>
         </div>
     );
-}
+};
 
 export default DetailsCard;
