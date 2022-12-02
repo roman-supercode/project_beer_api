@@ -4,8 +4,8 @@ import Logo from "../../assets/img/Logo.svg";
 
 function Navigation() {
     return (
-        <div>
-            <Link to="/home"><img src={Logo} alt="Beer" /></Link>
+        <div className="navigation">
+            <Link to="/"><img src={Logo} alt="Beer" /></Link>
         </div >
     );
 };
